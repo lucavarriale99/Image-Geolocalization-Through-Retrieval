@@ -1,10 +1,16 @@
-# Simple_VPR_codebase
+# Image Geolocalization Through Retrieval 
+
+Visual geo-localization (VG), also known as Visual Place Recognition (VPR), involves determining the location depicted in a query image by referring to a database of geo-tagged reference images. The top retrieved images, along with their geo-tags (typically GPS coordinates), provide hypotheses for the query’s geographical location. In our [work](https://github.com/lucavarriale99/Image-Geolocalization-Through-Retrieval/blob/main/Exploring%20Visual%20Place%20Recognition.pdf), we investigate how the combination of different miners, loss functions, and aggregator layers performs on challenging datasets. We also introduce a new aggregator layer, ConvGeM, which leverages key features of state-of-the-art aggregators. Furthermore, we emphasize and formalize how the domain and dataset significantly influence the choice of the "right" model and which components best fit specific contexts.
+
+For further information, please refer to the [paper](https://github.com/lucavarriale99/Image-Geolocalization-Through-Retrieval/blob/main/Exploring%20Visual%20Place%20Recognition.pdf).
+
+Below are the steps to proceed with the experiments.
+
+## Run an experiment
 
 This repository serves as a starting point to implement a VPR pipeline. It allows you to train a simple
 ResNet-18 on the GSV dataset. It relies on the [pytorch_metric_learning](https://kevinmusgrave.github.io/pytorch-metric-learning/)
 library.
-
-## Run an experiment
 
 You can choose to validate/test on sf_xs or tokyo_xs.
 
